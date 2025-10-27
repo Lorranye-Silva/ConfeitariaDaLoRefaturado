@@ -1,0 +1,3 @@
+model\Funcionario.class
+model\Venda.class
+repository\FuncionarioRepository.class
