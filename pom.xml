@@ -12,14 +12,36 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
-        <exec.mainClass>br.com.senac.confeitariadalorefaturado.ConfeitariaDaLoRefaturado</exec.mainClass>
     </properties>
 
     <dependencies>
+        
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
             <version>8.0.33</version>
         </dependency>
+
+        
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.13.2</version>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
+
+    <build>
+        <plugins>
+            
+            <plugin>
+             <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <version>3.1.0</version>
+                <configuration>
+                    <mainClass>br.com.senac.confeitariadalorefaturado.ConfeitariaDaLoRefaturado</mainClass>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 </project>

@@ -1,3 +1,12 @@
-model\Funcionario.class
+service\ClienteService.class
 model\Venda.class
+model\Funcionario.class
+repository\ProdutoRepository.class
+repository\ClienteRepository.class
 repository\FuncionarioRepository.class
+service\FuncionarioService.class
+service\ProdutoService.class
+model\Cliente.class
+model\Produto.class
+util\ConexaoBD.class
+br\com\senac\confeitariadalorefaturado\ConfeitariaDaLoRefaturado.class
